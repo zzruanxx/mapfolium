@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_27cd6358ebece3bf1efa8f4360c22146 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_27cd6358ebece3bf1efa8f4360c22146" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_27cd6358ebece3bf1efa8f4360c22146 = L.map(
+                "map_27cd6358ebece3bf1efa8f4360c22146",
+                {
+                    center: [-15.78, -47.93],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e074b78131648e5ebe97f0d713f65742 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e074b78131648e5ebe97f0d713f65742.addTo(map_27cd6358ebece3bf1efa8f4360c22146);
+        
+    
+            var marker_7c0791c709ad6d67825608cb0e21b632 = L.marker(
+                [-23.55, -46.63],
+                {}
+            ).addTo(map_27cd6358ebece3bf1efa8f4360c22146);
+        
+    
+        var popup_e1fe19337145184b4c40cdaba38c5a97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f72f6e4d5aa6f10edb36ac435ee9f90 = $(`<div id="html_6f72f6e4d5aa6f10edb36ac435ee9f90" style="width: 100.0%; height: 100.0%;">São Paulo</div>`)[0];
+                popup_e1fe19337145184b4c40cdaba38c5a97.setContent(html_6f72f6e4d5aa6f10edb36ac435ee9f90);
+            
+        
+
+        marker_7c0791c709ad6d67825608cb0e21b632.bindPopup(popup_e1fe19337145184b4c40cdaba38c5a97)
+        ;
+
+        
+    
+    
+            var marker_6fcd050c3ca5f3c6d99c4397447fbcb8 = L.marker(
+                [-22.91, -43.17],
+                {}
+            ).addTo(map_27cd6358ebece3bf1efa8f4360c22146);
+        
+    
+        var popup_81dc576ad93e2b6a28cceb0a4e9f14cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64bf70df9431bca20627eb145415dea8 = $(`<div id="html_64bf70df9431bca20627eb145415dea8" style="width: 100.0%; height: 100.0%;">Rio de Janeiro</div>`)[0];
+                popup_81dc576ad93e2b6a28cceb0a4e9f14cb.setContent(html_64bf70df9431bca20627eb145415dea8);
+            
+        
+
+        marker_6fcd050c3ca5f3c6d99c4397447fbcb8.bindPopup(popup_81dc576ad93e2b6a28cceb0a4e9f14cb)
+        ;
+
+        
+    
+    
+            var marker_2a34a5081a0ed573fd87b86c2e184add = L.marker(
+                [-19.92, -43.94],
+                {}
+            ).addTo(map_27cd6358ebece3bf1efa8f4360c22146);
+        
+    
+        var popup_addee85f9755372cc45adb26c18aed18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87acc23b624a9c35458561359fbddb1f = $(`<div id="html_87acc23b624a9c35458561359fbddb1f" style="width: 100.0%; height: 100.0%;">Belo Horizonte</div>`)[0];
+                popup_addee85f9755372cc45adb26c18aed18.setContent(html_87acc23b624a9c35458561359fbddb1f);
+            
+        
+
+        marker_2a34a5081a0ed573fd87b86c2e184add.bindPopup(popup_addee85f9755372cc45adb26c18aed18)
+        ;
+
+        
+    
+    
+            var marker_0a85e0e140cec61c3d5f4fac234edf7b = L.marker(
+                [-15.78, -47.93],
+                {}
+            ).addTo(map_27cd6358ebece3bf1efa8f4360c22146);
+        
+    
+        var popup_66b9a293778e4dfc66617ffa10e0f96f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4554497e12dff39f99254454d03631ca = $(`<div id="html_4554497e12dff39f99254454d03631ca" style="width: 100.0%; height: 100.0%;">Brasília</div>`)[0];
+                popup_66b9a293778e4dfc66617ffa10e0f96f.setContent(html_4554497e12dff39f99254454d03631ca);
+            
+        
+
+        marker_0a85e0e140cec61c3d5f4fac234edf7b.bindPopup(popup_66b9a293778e4dfc66617ffa10e0f96f)
+        ;
+
+        
+    
+</script>
+</html>
